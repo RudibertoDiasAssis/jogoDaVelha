@@ -51,17 +51,66 @@ button {
 #block-7, #block-8, #block-9 {
     border-bottom: none;
 }
+/*.hide{
+    display: none !important;
+}
+*/
 .x{
     font-size: 60px;
-    color: red;
+    color:#0FC2C0;
     display: inline-block;
     line-height: 100px;
+    font-family:Arial, Helvetica, sans-serif
 }
 .o {
     width: 35px;
     height: 35px;
-    border: 5px solid green;
+    border: 5px solid #023535;
     border-radius: 50%;
     display: inline-block;
     margin-top: 12px;
 }
+.score-box {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+#scoreboard-container{
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 15px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+#scoreboard-container > h2{
+    padding-bottom: 15px;
+}
+
+#x-scoreboard{
+    color: #0FC2C0;
+    margin-top: 30px;
+    font-family:Arial, Helvetica, sans-serif
+}
+#o-scoreboard {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #023535;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+#message p {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 225px;
+    width: 500px;
+    font-size: 50px;
+    background-color:#023535;
+    border-radius: 5% 5%;
+    color: #0FC2C0;
+    padding: 20px;
+  }
