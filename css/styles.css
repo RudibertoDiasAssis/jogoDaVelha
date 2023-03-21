@@ -4,6 +4,7 @@ body {
     background-color: #015958;
 }
 h1 {
+    margin-top: 15px;
     color: #0FC2C0;
     font-size: 60px;
     padding-bottom: 20px;
@@ -85,12 +86,14 @@ button {
 }
 #scoreboard-container > h2{
     padding-bottom: 15px;
+    font-size: 25px;
 }
 
 #x-scoreboard{
     color: #0FC2C0;
     margin-top: 30px;
     font-family:Arial, Helvetica, sans-serif
+    display: none;
 }
 #o-scoreboard {
     display: inline-block;
@@ -101,6 +104,7 @@ button {
     margin-right: 3px;
 }
 #message p {
+    display: none;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -112,5 +116,5 @@ button {
     background-color:#023535;
     border-radius: 5% 5%;
     color: #0FC2C0;
-    padding: 20px;
+    padding: 50px;
   }
