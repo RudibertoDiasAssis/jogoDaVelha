@@ -13,3 +13,4 @@ Tudo dinamicamente via JavaScript puro!
 
 E também com a possibilidade de jogar contra um IA bem simples criado com muito trabalho e dedicação, muito simples!
 
+https://rudibertodiasassis.github.io/jogoDaVelha/
