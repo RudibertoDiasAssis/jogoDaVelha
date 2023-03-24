@@ -147,3 +147,9 @@ button {
     color: #015958;
     font-family: 'Press Start 2P', cursive;
   }
+  @media screen and (max-width: 700px) {
+    #message p{
+        width: 200px;
+        font-size: 30px;
+    }
+  }
